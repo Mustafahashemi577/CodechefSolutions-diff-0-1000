@@ -1,0 +1,12 @@
+fun main(args: Array<String>){
+    var input = readLine()
+    var test = input!!.toInt()
+    while(test-->0){
+        var input2 = readLine();
+        var n = input2!!.toInt();
+        if(n%4==0)
+        println("Good")
+        else
+        println("Not Good")
+    }
+}
